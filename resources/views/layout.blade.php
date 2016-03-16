@@ -15,17 +15,18 @@
 		@yield('title')
 	</title> 
 	
-	<link href="css/all.css" rel="stylesheet">
+	<link href="/css/all.css" rel="stylesheet">
 </head>
 
 <body>
+	@include('pages.partials.navigationbar')
 	@yield('body')
 
-	<!--Ajax Call -->
+
 	<div>
 	<p id="info" class="alert alert-info" style="display: none;"> </p>
 	</div>
-	<script type="text/javascript" src="js/all.js"> </script> 
+	<script type="text/javascript" src="/js/all.js"> </script> 
 
 </body>	
 

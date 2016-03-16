@@ -1,4 +1,3 @@
-@include('pages.partials.navigationbar')
 @extends('layout')
 @section('body')
 	<div style="background:transparent !important" class="jumbotron jumbotron-fluid">

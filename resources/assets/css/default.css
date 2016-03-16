@@ -1,0 +1,7 @@
+
+input{color:black;}
+
+input.field{color:white;}
+
+button, input, optgroup, select, textarea {
+    margin-bottom: 4px;}
