@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::resource('meds','MedController');
-Route::get('search/Prednisone20,Diclofenac50,Doxazosin4', 'MedController@barcode');
+Route::get('search/Prednisone20,Diclofenac50,Diltiazem180', 'MedController@barcode');
 
 /*
 |--------------------------------------------------------------------------
