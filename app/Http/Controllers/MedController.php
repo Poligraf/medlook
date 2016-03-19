@@ -83,4 +83,8 @@ class MedController extends Controller
     {
         //
     }
+
+    public function barcode (){
+        return view(('pages.barcodesearch'));
+    }
 }
