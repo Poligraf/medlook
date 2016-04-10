@@ -18,6 +18,13 @@ Route::get('/', function () {
 Route::resource('meds','MedController');
 Route::get('search/Prednisone20,Diclofenac50,Diltiazem180', 'MedController@barcode');
 
+Route::get('test', function () {
+    return view('pages.03-Example');
+});
+
+Route::get('/dialog.html', function () {
+    return view('pages.dialog');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
