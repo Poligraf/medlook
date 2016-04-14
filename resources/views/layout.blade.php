@@ -27,7 +27,7 @@
 	<p id="info" class="alert alert-info" style="display: none;"> </p>
 	</div>
 	<script type="text/javascript" src="/js/all.js"> </script> 
-	<script type="text/javascript" src="/js/include.js"> </script> 
+	<script type='text/javascript' src='include.js' ></script>
 
 </body>	
 

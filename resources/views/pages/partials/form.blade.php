@@ -27,8 +27,9 @@
  				{{ Form::file('medPic', ['class' => 'field']) }}
  			</div>
  		
-     		
+     		<input type="button" class="btn btn-danger" value="Literacy Check" onclick="$Spelling.SpellCheckInWindow('all')">
             {!! Form::submit('Insert Drug', ['class' => 'btn btn-primary']) !!}
+
         	
         {!! Form::close() !!}
     </div>
